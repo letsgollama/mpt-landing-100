@@ -17,7 +17,10 @@
           <span class="brand-text">Machu Picchu Peru Tours</span>
         </a>
 
-        <p class="social-proof">4.9 · +1,200 reseñas</p>
+        <p class="social-proof">
+          <span class="social-stars" aria-hidden="true">★★★★★</span>
+          <span>4.9 · +1,200 reseñas</span>
+        </p>
 
         <div class="topbar-actions">
           <a
@@ -539,6 +542,15 @@
       .social-proof {
         color: var(--muted);
         font-size: 0.94rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .social-stars {
+        color: var(--trust);
+        letter-spacing: 0.04em;
+        font-size: 0.9rem;
       }
 
       .topbar-actions {
